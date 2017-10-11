@@ -1,0 +1,136 @@
+/* YOUR CUSTOM STYLES */
+
+body, html {
+	margin: 0px;
+    padding: 0px;
+    background: #f5f5f5;
+    font-family: 'Segoe UI';
+    height: 100%;
+}
+
+#header1-wrap {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+#header2 .double-nav {
+	margin-top: 86px;
+	border: none !important;
+}
+
+
+#header1-wrap .menus ul li {
+	list-style: none;
+	color: #fff;
+    overflow: hidden;
+    float: left;
+    
+}
+
+#header1-wrap .menus a {
+	color: #0cefc8;
+	border-right: 1px solid #e0e0e0;
+    font-size: 12px;
+    margin-left: 6px;
+    padding-right: 6px;
+}
+
+#header1-wrap .contact a{
+	color: #0cefc8;
+	font-size: 12px;
+}
+
+
+
+/*.dropdown a#navbarDropdownMenuLink {
+	color: #0c0101;
+}*/
+
+ul.dropdown-menu.mega-dropdown-menu.show {
+	display: inline-flex !important;
+	margin-top: 8px !important;
+	background-clip: inherit !important;
+	overflow: hidden;
+}
+
+
+ul#ab a:hover {
+	color: inherit !important;
+}
+
+
+
+
+
+ul#horizontal-list {
+    list-style-type: none;
+}
+
+ul#horizontal-list li {
+    float: left;
+}
+
+ul#horizontal-list li a {
+    display: block;
+    color: 0a0909;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+img.isize {
+	height: 100px;
+}
+
+/*search-form*/
+
+
+
+#shop .nav-item .nav-link {
+	color: black;
+	padding-left: 20px;
+}
+
+/*header-3*/
+
+ul#header_3 {
+	display: inline-flex;
+	list-style-type: none;
+
+}
+p._pl {
+	font-size: 12px;
+	color: #fff;
+	margin-left: -10px;
+	text-align: center;
+}
+
+
+div.icon_bg {
+	background: #fff;
+    color: #686a6a;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 50px;
+    padding: 7px;
+    width: 50px;
+    margin-left: -20%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.icon_bg img {
+	transition: transform 0.8s ease-in-out 0s;
+}
+
+
+.icon_bg img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
+
+
