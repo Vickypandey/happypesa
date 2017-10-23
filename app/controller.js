@@ -5,9 +5,7 @@
 
     .controller('HomeCtrl', function($scope) { 
 
-    	$('.carousel').carousel({
-  			interval: 2000
-		})
+  		$scope.message = "Product Created!";
 
     })
 

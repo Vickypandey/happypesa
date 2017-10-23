@@ -1,136 +1,67 @@
-/* YOUR CUSTOM STYLES */
 
-body, html {
-	margin: 0px;
-    padding: 0px;
-    background: #f5f5f5;
-    font-family: 'Segoe UI';
-    height: 100%;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
-#header1-wrap {
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    z-index: 999;
-}
-#header2 .double-nav {
-	margin-top: 86px;
-	border: none !important;
-}
-
-
-#header1-wrap .menus ul li {
-	list-style: none;
-	color: #fff;
-    overflow: hidden;
-    float: left;
     
+
+.card {
+    margin-top: 50px;
+    border-radius: 2px !ipmportant;
+
 }
 
-#header1-wrap .menus a {
-	color: #0cefc8;
-	border-right: 1px solid #e0e0e0;
-    font-size: 12px;
-    margin-left: 6px;
-    padding-right: 6px;
+.mnUnitTb {
+    background: #fff;
+    padding-top: 14px;
+    margin-bottom: 2px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 3px 2px rgba(123, 123, 123, 0.15);
+    border-bottom: 1px solid #f0f0f0;
 }
 
-#header1-wrap .contact a{
-	color: #0cefc8;
-	font-size: 12px;
+.lft .mnUnitTb {
+    /*display: inline-block;*/
+    vertical-align: middle;
+    width: 400px;
 }
 
-
-
-/*.dropdown a#navbarDropdownMenuLink {
-	color: #0c0101;
-}*/
-
-ul.dropdown-menu.mega-dropdown-menu.show {
-	display: inline-flex !important;
-	margin-top: 8px !important;
-	background-clip: inherit !important;
-	overflow: hidden;
-}
-
-
-ul#ab a:hover {
-	color: inherit !important;
-}
-
-
-
-
-
-ul#horizontal-list {
-    list-style-type: none;
-}
-
-ul#horizontal-list li {
-    float: left;
-}
-
-ul#horizontal-list li a {
+span:before, i:before, a:before {
+    font-size: 25px;
     display: block;
-    color: 0a0909;
+    font-family: 'mbk_web_font';
+    font-style: normal;
+    color: #3E4551;
+}
+
+ .lft .mnUnitTb font a {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-right: -5px;
+    font-size: 12px;
+    box-sizing: border-box;
+    color: #3E4551;
+}
+
+.mnUnitTb font a {
+    width: 100px;
     text-align: center;
-    text-decoration: none;
-    font-size: 15px;
+    transition: .5s;
 }
 
-img.isize {
-	height: 100px;
+.icomobile.ion-iphone:before, img {
+    /*content: "\f1fa";*/
+    display: block;
+    font-size: 40px;
 }
 
-/*search-form*/
-
-
-
-#shop .nav-item .nav-link {
-	color: black;
-	padding-left: 20px;
+.icomobile img {
+    padding: 2px;
+    margin-left: 30px;
 }
-
-/*header-3*/
-
-ul#header_3 {
-	display: inline-flex;
-	list-style-type: none;
-
-}
-p._pl {
-	font-size: 12px;
-	color: #fff;
-	margin-left: -10px;
-	text-align: center;
-}
-
-
-div.icon_bg {
-	background: #fff;
-    color: #686a6a;
-    border-radius: 100%;
-    overflow: hidden;
-    height: 50px;
-    padding: 7px;
-    width: 50px;
-    margin-left: -20%;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.icon_bg img {
-	transition: transform 0.8s ease-in-out 0s;
-}
-
-
-.icon_bg img:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-
-
-
-
-

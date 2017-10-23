@@ -2,7 +2,7 @@
 
 // Declare app level module which depends on views, and components
 
-angular.module('myApp', ['ui.router', 'myApp.controllers'])
+angular.module('myApp', ['ui.router', 'myApp.controllers', 'myApp.directive'])
 
     // .run(function($rootScope,$state) {
     //   $rootScope.$on('api:ready', function (event) {
@@ -51,5 +51,5 @@ angular.module('myApp', ['ui.router', 'myApp.controllers'])
             // })
 
         // if none of the above states are matched, use this as the fallback
-        $urlRouterProvider.otherwise('/home');
+        // $urlRouterProvider.otherwise('/home');
     })
