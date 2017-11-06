@@ -7,7 +7,7 @@
 }
     
 
-.card {
+/*.card {
     margin-top: 50px;
     border-radius: 2px !ipmportant;
 
@@ -23,7 +23,7 @@
 }
 
 .lft .mnUnitTb {
-    /*display: inline-block;*/
+   
     vertical-align: middle;
     width: 400px;
 }
@@ -56,7 +56,7 @@ span:before, i:before, a:before {
 }
 
 .icomobile.ion-iphone:before, img {
-    /*content: "\f1fa";*/
+   
     display: block;
     font-size: 40px;
 }
@@ -64,4 +64,39 @@ span:before, i:before, a:before {
 .icomobile img {
     padding: 2px;
     margin-left: 30px;
+}*/
+
+/*.icons_all {
+    display: inline-flex;
+}
+
+.icons_all a{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-right: -5px;
+    font-size: 12px;
+    box-sizing: border-box;
+    color: #3E4551;
+    width: 100px;
+    text-align: center;
+    transition: .5s;
+}
+
+.catTxt:before {
+    display: block;
+    font-size: 30px
+}*/
+
+#hotelform {
+    margin-top: 20px;
+}
+
+#hotelform .content {
+        padding: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
 }
